@@ -8,9 +8,9 @@ Place to collaborate on a project that will take a dataset and build either an E
 To analyze domestic air travel cancellations/delays due to weather conditions at the departure city or destination city based on a few datasets that could illustrate the particulars of weather that cause the most delays/cancellations, or if there are other factors like Airline, aircraft model, or simply busy terminals that can contribute more to these issues. Our project will be to output a visualization of these variables perhaps on an interactive map of the country with options to look at the data on a monthly basis or compare airlines/weather conditions. 
 
 ### Datasets:
-1.  Airline.sql database
-2.  Airports.csv
-3.  WeatherEvents_Jan2016-Dec2021.csv
+1.  Airline.sql database (https://relational.fit.cvut.cz/dataset/Airline)
+2.  Airports.csv (https://www.kaggle.com/datasets/khaiid/most-crowded-airports)
+3.  WeatherEvents_Jan2016-Dec2021.csv (https://www.kaggle.com/datasets/sobhanmoosavi/us-weather-events)
 
 ### Schema (in progress):
 * Extraction:
