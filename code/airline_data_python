@@ -1,0 +1,38 @@
+#Import libraries
+import numpy as np
+import pandas as pd
+import pymysql as mysql
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+#connectting the sql
+conn2=mysql.connect(host='localhost',
+                   port=int(3306),
+                   user='root',
+                   passwd='******',
+                   db='airline')
+#Show tables
+tableNames2 = pd.read_sql("""SHOW TABLES""", conn2)
+tableNames2
+
+#airline data as data frame
+airline_table = """SELECT * FROM on_time_on_time_performance_2016_1 """
+airline_df =  pd.read_sql(airline_table, conn2)
+
+airline_df.shape
+
+airline_df.info()
+
+airline_df.describe()
+
+#Find the duplicates
+airline_df.duplicated().sum()
+
+#unique values
+airline_df['UniqueCarrier'].unique()
+
+#unique values
+airline_df['UniqueCarrier'].unique()
+
+### Find the Null values
+airline_df.isnull().sum()
