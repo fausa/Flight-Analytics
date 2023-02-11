@@ -1,0 +1,39 @@
+### Load the Data
+weather_data = pd.DataFrame(pd.read_csv('WeatherUS_2016 (1).csv'))
+weather_data.head()
+weather_data.shape
+weather_data.info()
+weather_data.describe
+
+#Find the duplicates
+weather_data.duplicated().sum()
+
+#unique values
+weather_data['Type'].unique()
+
+#unique values
+weather_data['Severity'].unique()
+
+#unique values
+weather_data['State'].unique()
+
+### Visualize the Unique counts
+sns.countplot(weather_data['Type']).unique()
+
+### Find the Null values
+weather_data.isnull().sum()
+
+### Correlation Plot - EDA
+weather_data.corr()
+
+### Removing unnecessary columns
+Reduced_df = weather_data.drop(['Unnamed: 0', 'EventId','TimeZone','LocationLat','LocationLng','County','ZipCode'], axis=1)
+Reduced_df.head()
+
+### Rename the coolumns
+Reduced_df.rename(
+    columns={"StartTime(UTC)": "StartTime_UTC", "EndTime(UTC)": "EndTime_UTC", "Precipitation(in)": "Precipitation_in"},
+    inplace=True,
+)
+Reduced_df.head()
+
