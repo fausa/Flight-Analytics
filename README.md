@@ -21,7 +21,7 @@ For our output and visualization, we plan to utilize the database schema and dat
 ### Schema (in progress):
 * Extraction: Airline_diagram.png (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/airline_diagram.png)
 * Transform: Remove K in airport code in weather data, generate weather table, related tables, join flight data with weather data
-* Load: Final_project_loading_schema.png (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/Final_project_loading_schema.png)
+* Load: Final_project_loading_schema_diagram.png (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/Final_project_loading_schema_diagram.png)
 
 ### Code (in progress):
 * SQL schema development: Final_project_loading_schema.sql (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/Final_project_loading_schema.sql)
