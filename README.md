@@ -19,13 +19,13 @@ For our output and visualization, we plan to utilize the database schema and dat
 3.  WeatherEvents_Jan2016-Dec2021.csv (https://www.kaggle.com/datasets/sobhanmoosavi/us-weather-events)
 
 ### Schema (in progress):
-* Extraction: Airline_diagram.png (https://github.com/fausa/ADS507_Team1_Final_Project/latest_code/airline_diagram.png)
+* Extraction: Airline_diagram.png (https://github.com/fausa/ADS507_Team1_Final_Project/main/latest_code/airline_diagram.png)
 * Transform: Remove K in airport code in weather data, generate weather table, related tables, join flight data with weather data
-* Load: Final_project_loading_schema.png (https://github.com/fausa/ADS507_Team1_Final_Project/latest_code/Final_project_lodaing_schema.png)
+* Load: Final_project_loading_schema.png (https://github.com/fausa/ADS507_Team1_Final_Project/main/latest_code/Final_project_lodaing_schema.png)
 
 ### Code (in progress):
-* SQL schema development: Final_project_loading_schema.sql (https://github.com/fausa/ADS507_Team1_Final_Project/latest_code/Final_project_loading_schema.sql)
-* Pipeline development: Final_project_1.ipynb (https://github.com/fausa/ADS507_Team1_Final_Project/latest_code/Final_project_1.ipynb) 
+* SQL schema development: Final_project_loading_schema.sql (https://github.com/fausa/ADS507_Team1_Final_Project/main/latest_code/Final_project_loading_schema.sql)
+* Pipeline development: Final_project_1.ipynb (https://github.com/fausa/ADS507_Team1_Final_Project/main/latest_code/Final_project_1.ipynb) 
 * Python dashboard development
 
 ### Output:
