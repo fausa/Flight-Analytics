@@ -17,7 +17,7 @@ For our output and visualization, we plan to utilize the database schema and dat
 1.  Airline.sql database (https://relational.fit.cvut.cz/dataset/Airline)
 2.  Airports.csv (https://www.kaggle.com/datasets/khaiid/most-crowded-airports)
 3.  WeatherEvents_Jan2016-Dec2021.csv (https://www.kaggle.com/datasets/sobhanmoosavi/us-weather-events)
-4.  Shapefile for Output Visualization: (https://geodata.lib.utexas.edu/catalog/stanford-hh676zz3630)
+4.  Shapefile of Continental USA for Output Visualization: (https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national)
 
 ### Schema (in progress):
 * Extraction: Airline_diagram.png (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/source_data_schema_diagram.png)
