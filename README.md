@@ -1,5 +1,5 @@
 # ADS507_Team1_Final_Project
-## Effects of Weather on Domestic Air Travel  
+## Flight Analytics - a Data Engineering Project  
 
 ### Description:
 Place to collaborate on a project that will take a dataset and build either an ETL or ELT pipeline to produce a practical output from it. Examples would be a triggered email from a condition that is met, or a dashboard to visualize the data.
@@ -19,7 +19,7 @@ For our output and visualization, we plan to utilize the database schema and dat
 3.  WeatherEvents_Jan2016-Dec2021.csv (https://www.kaggle.com/datasets/sobhanmoosavi/us-weather-events)
 
 ### Schema (in progress):
-* Extraction: Airline_diagram.png (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/airline_diagram.png)
+* Extraction: Airline_diagram.png (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/source_data_schema_diagram.png)
 * Transform: Remove K in airport code in weather data, generate weather table, related tables, join flight data with weather data
 * Load: Final_project_loading_schema_diagram.png (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/Final_project_loading_schema_diagram.png)
 
