@@ -47,10 +47,12 @@ For our output and visualization, we plan to load the schema and data into the d
 
 ### Holes in our method/improvements needed:
 * More monthly data is needed for the entire year and more to collect better training data for future forecasts.
-* Future steps involve automation perhaps through implementation of Airflow to orchestrate and monitor the ETL process.
+* Queries might have room for further optimization for better performance.
 
 ### Further work:
+* Future steps involve automation perhaps through implementation of Airflow to orchestrate and monitor the ETL process.
+* Output dashboard can include more tiles containing statistical results to assist Business Intelligence teams with quick in-the-moment decision-making data. This would involve more communication with the BI team.
 
-### ETL code with extras:
-* [ETL pipeline that includes various plots/debug outputs](latest_code/Final_project_1.ipynb) 
+### Extras:
+* [ETL pipeline with extra visualizations, maps](latest_code/Final_project_1.ipynb) 
 
