@@ -12,12 +12,12 @@ For our output and visualization, we plan to load the schema and data into the d
 
 
 ### Datasets:
-1.  Airline.sql database (https://relational.fit.cvut.cz/dataset/Airline)
-2.  WeatherEvents_Jan2016-Dec2021.csv (https://www.kaggle.com/datasets/sobhanmoosavi/us-weather-events)
-3.  Shapefile of Continental USA for Output Visualization: (https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national)
+1.  [Airline.sql database](https://relational.fit.cvut.cz/dataset/Airline)
+2.  [WeatherEvents_Jan2016-Dec2021.csv](https://www.kaggle.com/datasets/sobhanmoosavi/us-weather-events)
+3.  [Shapefile of Continental USA for Output Visualization:](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national)
 
 ### ETL pipeline Overview:
-* Extraction: Airline_diagram.png (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/source_data_schema_diagram.png)
+* Extraction: [Airline_diagram.png](latest_code/source_data_schema_diagram.png)
   
   1. Extract airline, airport and cancellation codes "look-up" style tables from the airlines database
   2. Extract the on_time_performance_2016 table that contains flight information for domestic flights for the month of January, 2016
@@ -30,17 +30,17 @@ For our output and visualization, we plan to load the schema and data into the d
   3. Generate a new feature called weather_code that points to a particular weather type and severity combination.
   4. Add this code to the matching weather type/severity rows in the weather data
   
-* Load: Final_project_loading_schema_diagram.png (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/load_outputdata_schema_diagram.png)
+* Load: [Final_project_loading_schema_diagram.png](latest_code/load_outputdata_schema_diagram.png)
 
   1. Load airport, cancelled code, and airline tables with more meaningful column names into the new database called domestic_flight_weather_database
   2. JOIN the flight data and weather data on basis of the location (matching airport codes from the weather data, and Origin airport codes from the flight data), as long as the flight date lies between the start and end dates of the weather reported for that region. Only the most necessary fields are kept: FlightDate, latitude, longitude, Origin (airport code), weather_code, weather type, weather severity, airline code (that is referenced to a name in the airline table loaded in step 1), cancelled (indicates if a flight was cancelled), and cancellation_code (that also matches to a reason on the cancellation_codes table loaded in step 1.)
   
   
 ### ETLPipeline Deployment:
-* [ETL pipeline] manual deployment and monitoring (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/Flight_Analytics_ETL_output.ipynb)
+* [ETL pipeline](latest_code/Flight_Analytics_ETL_output.ipynb) manual deployment and monitoring
 
 ### Output:
-* [Python dashboard output] (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/Continental_USA_Flight_Cancellations_top_weather_conditions_January_2016.html)
+* [Python dashboard output](https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/Continental_USA_Flight_Cancellations_top_weather_conditions_January_2016.html)
 
 
 ### Conclusions:
@@ -52,5 +52,5 @@ For our output and visualization, we plan to load the schema and data into the d
 ### Further work:
 
 ### ETL code with extras:
-* [ETL pipeline that includes various plots/debug outputs] (https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/Final_project_1.ipynb) 
+* [ETL pipeline that includes various plots/debug outputs](latest_code/Final_project_1.ipynb) 
 
