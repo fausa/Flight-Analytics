@@ -14,7 +14,7 @@ For our output and visualization, we plan to load the schema and data into the d
 ### Datasets:
 1.  [Airline.sql database](https://relational.fit.cvut.cz/dataset/Airline)
 2.  [WeatherEvents_Jan2016-Dec2021.csv](https://www.kaggle.com/datasets/sobhanmoosavi/us-weather-events)
-3.  [Shapefile of Continental USA for Output Visualization:](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national)
+3.  [Shapefile of Continental USA for Output Visualization](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-state-and-equivalent-national)
 
 ### ETL pipeline Overview:
 * Extraction: [Airline_diagram.png](latest_code/source_data_schema_diagram.png)
