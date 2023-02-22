@@ -10,6 +10,13 @@ The primary goal and function of the data pipeline is to intake monthly data obt
  
 For our output and visualization, we plan to load the schema and data into the data science database called domestic_flight_weather_database so the data science team can develop time series forecasting models or other predictive models to understand how date, weather type, weather severity, airline carrier and airport locations affect flight cancellations. Finally, an interactive heatmap of flight cancellations and top weather conditions per airport will be provided as output to the pipeline. 
 
+### Step-by-Step:
+1. Gain Access to the server containing Airline database
+2. Import that database to local server
+3. Download the weather csv file from the website
+4. Confirm directory of csv in the ETL pipeline 
+5. Run the Script with proper credentials indicated in first block of the code
+6. Manually monitor outputs
 
 ### Datasets:
 1.  [Airline.sql database](https://relational.fit.cvut.cz/dataset/Airline)
@@ -48,6 +55,7 @@ For our output and visualization, we plan to load the schema and data into the d
 ### Holes in our method/improvements needed:
 * More monthly data is needed for the entire year and more to collect better training data for future forecasts.
 * Queries might have room for further optimization for better performance.
+* Ideally, code is in the form of an API that can change the csv file directory for the read_csv function in the code, as well as take in the necessary login credentials instead of being hard-coded in the code.
 
 ### Further work:
 * Future steps involve automation perhaps through implementation of Airflow to orchestrate and monitor the ETL process.
