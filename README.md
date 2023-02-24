@@ -47,7 +47,7 @@ For our output and visualization, we plan to load the schema and data into the d
 * [ETL pipeline](latest_code/Flight_Analytics_ETL_output.ipynb) manual deployment and monitoring
 
 ### Output:
-* [Python dashboard output](https://github.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/Continental_USA_Flight_Cancellations_top_weather_conditions_January_2016.html)
+* [Python dashboard output](https://raw.githack.com/fausa/ADS507_Team1_Final_Project/tree/main/latest_code/Continental_USA_Flight_Cancellations_top_weather_conditions_January_2016.html)
 
 
 ### Conclusions:
